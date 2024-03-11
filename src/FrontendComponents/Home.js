@@ -10,9 +10,9 @@ const Home = () => {
       <h1>Welcome to the ATU Canteen App!</h1>
       
       <Container className="buttonsContainer" fluid>
-        <Link to="/Menus">
+        {/* <Link to="/Menus">
           <button className="navButtons">Weekly Menus</button>
-        </Link>
+        </Link> */}
         <Link to="/Recipes">
           <button className="navButtons">Recipes</button>
         </Link>

@@ -19,7 +19,7 @@ const OpeningHours = () => {
             <Card.Text>8:30am - 8pm</Card.Text>
             <Card.Text></Card.Text>
             <Card.Subtitle>Friday:</Card.Subtitle>
-            <Card.Text>8:30am - pm</Card.Text>
+            <Card.Text>8:30am - 4pm</Card.Text>
           </Card.Body>
         </Card>
       </Container>

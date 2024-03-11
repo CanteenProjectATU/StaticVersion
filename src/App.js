@@ -31,7 +31,6 @@ function App() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/Menus">Menu</Nav.Link>
                   <Nav.Link href="/Recipes">Recipes</Nav.Link>
                   <Nav.Link href="/FoodPantry">Food Pantry</Nav.Link>
                   <Nav.Link href="/OpeningHours">Opening Hours</Nav.Link>
@@ -48,7 +47,6 @@ function App() {
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/Menus' element={<MenuPage></MenuPage>}></Route>
           <Route path='/Recipes' element={<Recipes></Recipes>}></Route>
-
           <Route path='/OpeningHours' element={<OpeningHours></OpeningHours>}></Route>
           <Route path='/FoodPantry' element={<FoodPantry></FoodPantry>}></Route>
 
